@@ -1,0 +1,29 @@
+// .input {
+//     width: 100px;
+// }
+
+input {
+    border-width: 0px;
+    border-radius: 0px;
+    font-size: 1rem;
+    color: black;
+    padding-left: 5px;
+    margin-top: 3px;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.input-close-icon {
+    float: inline-end;
+    width: 20px;
+    margin-left: -20px;
+    cursor: pointer;
+}
+
+input,
+.input-close-icon {
+    background: transparent;
+    height: 100%;
+}
