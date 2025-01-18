@@ -1,0 +1,47 @@
+.nav-bar {
+  position: sticky;
+  display: flex;
+  width: 100vw;
+  background-color: aquamarine;
+  color: black;
+  font-size: 1.2rem;
+  padding: 0.3rem 0;
+}
+
+.nav-links {
+  display: inherit;
+  justify-content: center;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.auth-links {
+  margin-left: auto;
+  display: inherit;
+}
+
+.nav-button,
+.auth-button {
+  cursor: pointer;
+  margin: 0 1rem;
+}
+.nav-button:hover,
+.auth-button:hover {
+  color: orange;
+}
+
+.nav-button {
+  text-transform: uppercase;
+}
+
+.nav-search {
+  display: inherit;
+  align-items: center;
+  border: 1px black solid;
+}
+
+#nav-search-icon {
+  padding: 0 1px 0 5px;
+  scale: 1.2;
+  border-right: 1px black solid;
+}/*# sourceMappingURL=index.css.map */
