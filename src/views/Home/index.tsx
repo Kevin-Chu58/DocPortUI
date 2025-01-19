@@ -1,6 +1,5 @@
 import { useAuth0 } from "@auth0/auth0-react";
 import { useNavigate } from "react-router-dom";
-import LogoutButton from "../../components/LogoutButton";
 
 const Home = () => {
     const { user, isAuthenticated, isLoading } = useAuth0();
@@ -18,7 +17,6 @@ const Home = () => {
             <div>
                 <p>name: {user.name}</p>
                 <p>email: {user.email}</p>
-                <LogoutButton />
             </div>
         )
     );
